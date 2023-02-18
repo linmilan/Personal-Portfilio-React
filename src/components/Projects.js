@@ -9,6 +9,7 @@ import TrackVisibility from 'react-on-screen';
 
 export const Projects = () =>{
     const projects = [
+
         {
             title: 'Business Startup',
             description:'Design & Development',
@@ -91,7 +92,7 @@ export const Projects = () =>{
                     </Col>
                 </Row>
             </Container>
-            <img className="background-img-right" src={colorSharp2} alt=''></img>
+            {/* <img className="background-img-right" src={colorSharp2} alt=''></img> */}
         </section>
     )
 }
