@@ -131,10 +131,7 @@ span.navbar-text {
     line-height: 1;
     border: 1px solid rgba(255, 255, 255, 0.5);
 }
-/* 测试 */
-.githubicon {
-  color: white;
-}
+
 .social-icon a::before {
     content: "";
     width: 42px;

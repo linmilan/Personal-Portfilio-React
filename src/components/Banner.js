@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
-    const toRotate = ['web Developer', 'web Designer', 'UI/UX Designer'];
+    const toRotate = ['Web Developer', 'Web Designer', 'UI/UX Designer'];
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
     const [index, setIndex] = useState(1);
@@ -57,7 +57,9 @@ export const Banner = () => {
                         {({ isVisible }) => 
                             <div className={isVisible ? 'animate__animated animate__fadeIn': ''}>
                                 <span className="tagline">Welcome to my Portfolio</span>
-                                <h1>{`Hi I'm Lin `}<span className="wrap">{text}</span></h1>
+                                <h1>Hi I'm Lin</h1>
+                                <h1 className="wrap">{text}</h1>
+                                {/* <h1>{`Hi I'm Lin `}<span className="wrap">{text}</span></h1> */}
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p> 
                                 <a href="#connect"><button onClick={()=>{ console.log('connect')}} >Let's Connect<ArrowRightCircle size={25}/></button></a>
                             </div>}
