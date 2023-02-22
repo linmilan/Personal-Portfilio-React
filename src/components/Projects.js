@@ -62,7 +62,7 @@ export const Projects = () =>{
                             {({ isVisible }) => 
                             <div className={isVisible ? 'animate__animated animate__fadeIn': ''}>
                                 <h2>Projects</h2>
-                                <p>hubaubjfhello bjbdaj njhkjfa mondiali a incrementare la loro produttivita', ridurre l'inquinamento delle acque e garantire ai consumatori una puntuale tra</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                             
                                 <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>
