@@ -1,6 +1,6 @@
 import { Col } from "react-bootstrap"
 import {BsGithub} from 'react-icons/bs'
-import {RiSlideshow2Line} from 'react-icons/ri'
+import {BiSlideshow} from 'react-icons/bi'
 
 export const ProjectCard = ({title, description, imgUrl, link, demo}) =>{
     return(
@@ -12,7 +12,7 @@ export const ProjectCard = ({title, description, imgUrl, link, demo}) =>{
                     <span>{description}</span>
                     <div className="proj-review">
                         <a href={link} target='_blank'><BsGithub /></a>
-                        <a href={demo} target='_blank'><RiSlideshow2Line /></a>
+                        <a href={demo} target='_blank'><BiSlideshow /></a>
                     </div>
                 </div>
             </div>
