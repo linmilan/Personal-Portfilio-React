@@ -489,6 +489,25 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   right: 0;
   z-index: -4;
 }
+.proj-review {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 50px;
+  
+}
+.proj-review a {
+  text-decoration: none;
+  color: white;
+}
+
+.proj-review a:hover {
+  color: #121212;
+}
+
 
 /************ Contact Css ************/
 .contact {

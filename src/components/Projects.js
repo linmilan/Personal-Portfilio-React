@@ -14,31 +14,43 @@ export const Projects = () =>{
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg4,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
         {
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg5,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
         {
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg3,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
         {
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg4,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
         {
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg4,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
         {
             title: 'Business Startup',
             description:'Design & Development',
             imgUrl:projImg5,
+            link:'https://github.com',
+            demo:'https://github.com'
         },
     ]
     return(
