@@ -577,6 +577,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom:0.5rem;
   
 }
+.contact_option-icon:hover {
+  color: #4e114e;
+}
 
 .contact_option a {
   margin-top: 0.7rem;
