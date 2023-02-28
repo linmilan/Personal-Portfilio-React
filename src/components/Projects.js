@@ -6,6 +6,7 @@ import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/project-img4.png';
 import projImg5 from '../assets/img/project-img5.png';
+import projImg6 from '../assets/img/project-img6.png';
 
 
 import 'animate.css';
@@ -20,6 +21,13 @@ export const Projects = () =>{
             imgUrl:projImg1,
             link:'https://github.com/linmilan/Ecommerce-HTML-CSS-JS',
             demo:'https://linmilan.github.io/Ecommerce-HTML-CSS-JS/'
+        },
+        {
+            title: 'React Note App',
+            description:'Design & Development',
+            imgUrl:projImg6,
+            link:'https://github.com/linmilan/REACT-NOTES-APP',
+            demo:'https://linmilan.github.io/REACT-NOTES-APP'
         },
         {
             title: 'Product Landing Page',
