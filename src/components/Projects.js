@@ -45,13 +45,7 @@ export const Projects = () =>{
             link:'https://github.com',
             demo:'https://github.com'
         },
-        {
-            title: 'Business Startup',
-            description:'Design & Development',
-            imgUrl:projImg5,
-            link:'https://github.com',
-            demo:'https://github.com'
-        },
+        
     ]
     return(
         <section className="project" id='projects'>
@@ -62,7 +56,7 @@ export const Projects = () =>{
                             {({ isVisible }) => 
                             <div className={isVisible ? 'animate__animated animate__fadeIn': ''}>
                                 <h2>Projects</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
                             
                                 <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>

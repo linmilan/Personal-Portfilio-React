@@ -4,7 +4,6 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
-import navIcon4 from '../assets/img/nav-icon4.svg';
 
 
 
@@ -38,7 +37,7 @@ export const NavBar = () => {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="home">
-            <img src={logo} alt="Logo" />
+            {/* <img src={logo} alt="Logo" /> */}
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -54,7 +53,6 @@ export const NavBar = () => {
                 <a href='https://www.linkedin.com/in/xiaoting-lin-72b794189/' target='_blank'><img src={navIcon1} alt="" /></a>
                 <a href='#'><img src={navIcon2} alt="" /></a>
                 <a href='#'><img src={navIcon3} alt="" /></a>
-                <a href='#'><img src={navIcon4} alt="" /></a>
               </div>
                 <a href="#contact"><button className="vvd"><span>Let's Connect</span></button></a>
             </span>
