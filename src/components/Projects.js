@@ -23,7 +23,7 @@ export const Projects = () =>{
             demo:'https://linmilan.github.io/Ecommerce-HTML-CSS-JS/'
         },
         {
-            title: 'React Note App',
+            title: 'React Notes App',
             description:'Design & Development',
             imgUrl:projImg6,
             link:'https://github.com/linmilan/REACT-NOTES-APP',
