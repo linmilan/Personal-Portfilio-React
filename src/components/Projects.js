@@ -16,7 +16,7 @@ export const Projects = () =>{
     const projects = [
 
         {
-            title: 'Responsive Ecommerce Webpage',
+            title: 'Responsive E-commerce Webpage',
             description:'Design & Development',
             imgUrl:projImg1,
             link:'https://github.com/linmilan/Ecommerce-HTML-CSS-JS',
@@ -40,7 +40,7 @@ export const Projects = () =>{
             title: 'Awesome Button',
             description:'Design & Development',
             imgUrl:projImg3,
-            link:'https://github.com/linmilan/Awesome-Button-Ripple-Effects/settings/pages',
+            link:'https://github.com/linmilan/Awesome-Button-Ripple-Effects',
             demo:'https://linmilan.github.io/Awesome-Button-Ripple-Effects/'
         },
         {
