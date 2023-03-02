@@ -517,7 +517,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 100px;
   justify-content: center;
   align-items: center;
-  gap: 30px;
+  gap: 70px;
   font-size: 50px;
   
 }
@@ -644,6 +644,9 @@ form button:hover {
 @media screen and (max-width: 600px) {
   .container.contact_container {
       width: var(--container-width-sm);
+  }
+  .project .nav.nav-pills {
+    width: 100%;
   }
   
 }

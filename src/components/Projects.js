@@ -7,6 +7,8 @@ import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/project-img4.png';
 import projImg5 from '../assets/img/project-img5.png';
 import projImg6 from '../assets/img/project-img6.png';
+import projImg7 from '../assets/img/project-img7.png';
+import projImg8 from '../assets/img/project-img8.png';
 
 
 import 'animate.css';
@@ -17,7 +19,7 @@ export const Projects = () =>{
 
         {
             title: 'Responsive E-commerce Webpage',
-            description:'Design & Development',
+            description:'In Progress...',
             imgUrl:projImg1,
             link:'https://github.com/linmilan/Ecommerce-HTML-CSS-JS',
             demo:'https://linmilan.github.io/Ecommerce-HTML-CSS-JS/'
@@ -57,6 +59,20 @@ export const Projects = () =>{
             link:'https://github.com/linmilan/City-Skyline',
             demo:'https://linmilan.github.io/City-Skyline/'
         },
+        {
+            title: 'Login Hover Effect',
+            description:'Design & Development',
+            imgUrl:projImg7,
+            link:'https://github.com/linmilan/Login-with-hover-effect',
+            demo:'https://linmilan.github.io/Login-with-hover-effect/'
+        },
+        {
+            title: 'Picasso Painting',
+            description:'Design & Development',
+            imgUrl:projImg8,
+            link:'https://github.com/linmilan/Picasso-painting',
+            demo:'https://linmilan.github.io/Picasso-painting/'
+        },
         
     ]
     return(
@@ -73,13 +89,13 @@ export const Projects = () =>{
                                 <Tab.Container id='projects-tabs' defaultActiveKey='first'>
                                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>
                                         <Nav.Item>
-                                            <Nav.Link eventKey='first'>One</Nav.Link>
+                                            <Nav.Link eventKey='first'>All</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="second">Two</Nav.Link>
+                                            <Nav.Link eventKey="second">Front-End</Nav.Link>
                                         </Nav.Item>
                                         <Nav.Item>
-                                            <Nav.Link eventKey="third">Three</Nav.Link>
+                                            <Nav.Link eventKey="third">Tiny Things</Nav.Link>
                                         </Nav.Item>
                                         </Nav>
                                     <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
