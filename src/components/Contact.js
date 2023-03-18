@@ -57,9 +57,9 @@ export const Contact =()=>{
                             </div>
                             {/* END OF CONTACT OPTIONS */}
                             <form ref={form} onSubmit={sendEmail}>
-                                <input type='text' name='name' placeholder='Your Full Name' required />
-                                <input type='email' name='email' placeholder='Your Email' required />
-                                <textarea name='message' rows='7' placeholder='Your Message' required ></textarea>
+                                <input type='text' name='name' placeholder='Your Full Name' className="cont" required />
+                                <input type='email' name='email' placeholder='Your Email' className="cont" required />
+                                <textarea name='message' rows='7' placeholder='Your Message' className="cont" required ></textarea>
                                 <button type='submit'>Send Message</button>
                             </form>
                         </div>
