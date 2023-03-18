@@ -570,7 +570,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 .contact_option:hover {
-  border: 1px solid rgb(210, 196, 196);
+  border: 1px solid rgb(210, 206, 206);
   opacity: 1;
 }
 .contact_option-icon {
@@ -579,7 +579,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   
 }
 .contact_option-icon:hover {
-  color: #4e114e;
+  color:rgb(215, 206, 206);
 }
 
 .contact_option a {
