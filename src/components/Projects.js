@@ -9,6 +9,7 @@ import projImg5 from '../assets/img/project-img5.png';
 import projImg6 from '../assets/img/project-img6.png';
 import projImg7 from '../assets/img/project-img7.png';
 import projImg8 from '../assets/img/project-img8.png';
+import projImg9 from '../assets/img/project-img9.png';
 
 
 import 'animate.css';
@@ -72,6 +73,13 @@ export const Projects = () =>{
             imgUrl:projImg8,
             link:'https://github.com/linmilan/Picasso-painting',
             demo:'https://linmilan.github.io/Picasso-painting/'
+        },
+        {
+            title: 'Clock',
+            description:'Design & Development',
+            imgUrl:projImg9,
+            link:'https://github.com/linmilan/Clock',
+            demo:'https://linmilan.github.io/Clock/'
         },
         
     ]
