@@ -20,7 +20,7 @@ export const Projects = () =>{
 
         {
             title: 'Responsive E-commerce Webpage',
-            description:'In Progress...',
+            description:'This is a responsive e-commerce website built with HTML, CSS, and JavaScript, featuring essential functionalities such as product display and shopping cart. It is deployed on GitHub pages and utilizes technologies including jQuery, Bootstrap, Font Awesome, and more. Some functionalities are currently under development.',
             imgUrl:projImg1,
             link:'https://github.com/linmilan/Ecommerce-HTML-CSS-JS',
             demo:'https://linmilan.github.io/Ecommerce-HTML-CSS-JS/'
@@ -76,7 +76,7 @@ export const Projects = () =>{
         },
         {
             title: 'Clock',
-            description:'Design & Development',
+            description:'This project utilizes HTML, CSS, and JavaScript . The current time is obtained by instantiating a time object, and the setInterval() function is used to update the clock every second. To facilitate code management and maintenance, common functionalities such as obtaining the current time and setting the pointer rotation angle have been encapsulated into functions.',
             imgUrl:projImg9,
             link:'https://github.com/linmilan/Clock',
             demo:'https://linmilan.github.io/Clock/'
