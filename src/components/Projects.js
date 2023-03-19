@@ -27,7 +27,7 @@ export const Projects = () =>{
         },
         {
             title: 'React Notes App',
-            description:'Design & Development',
+            description:'This is a note-taking app created using React that enables users to easily create, edit, and delete notes. It also features a search function to help users find their notes quickly. The app utilizes React components, React Router, and React hooks. It is currently hosted on GitHub Pages.',
             imgUrl:projImg6,
             link:'https://github.com/linmilan/REACT-NOTES-APP',
             demo:'https://linmilan.github.io/REACT-NOTES-APP'
