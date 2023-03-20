@@ -11,6 +11,7 @@ import projImg7 from '../assets/img/project-img7.png';
 import projImg8 from '../assets/img/project-img8.png';
 import projImg9 from '../assets/img/project-img9.png';
 import projImg10 from '../assets/img/project-img10.png';
+import projImg11 from '../assets/img/project-img11.png';
 
 
 import 'animate.css';
@@ -84,10 +85,17 @@ export const Projects = () =>{
         },
         {
             title: 'Colorful Buttons',
-            description:'',
+            description:'Design & Development',
             imgUrl:projImg10,
             link:'https://github.com/linmilan/Colorful-buttons-1',
             demo:'https://linmilan.github.io/Colorful-buttons-1/',
+        },
+        {
+            title: 'Navigation',
+            description:'Design & Development',
+            imgUrl:projImg11,
+            link:'https://github.com/linmilan/Navigation2',
+            demo:'https://linmilan.github.io/Navigation2/',
         },
         
     ]
